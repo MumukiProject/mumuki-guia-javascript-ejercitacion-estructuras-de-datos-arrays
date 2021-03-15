@@ -3,3 +3,4 @@ Crear una función `recortar` que tome como argumentos un número `cantidadLetra
 ```javascript
 recortar(4, ['elefante', 'dinosaurio'. 'chocolate', 'avion', 'america']) // ['eleft', 'dino' 'chocolate', 'avio', 'amer']
 recortar(1, ['algoritmo', 'bug', 'compilador']) // ['a', 'b', 'c']
+```
