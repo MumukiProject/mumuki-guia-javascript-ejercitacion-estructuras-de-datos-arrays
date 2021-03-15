@@ -3,7 +3,13 @@ name: 'Ejercitación - Estructuras de datos: arrays'
 locale: es
 type: learning
 beta: false
+teacher_info: ''
 language: javascript
 id_format: "%05d"
-order: []
+order:
+- 1
+- 2
+- 3
+- 4
+- 5
 private: false
