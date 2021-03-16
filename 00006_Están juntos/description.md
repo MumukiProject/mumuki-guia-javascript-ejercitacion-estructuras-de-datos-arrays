@@ -1,7 +1,10 @@
-Crear una función `estanJuntos` que tome como argumento un array de strings `personajes`, y devuelva `true` si Sam se encuentra al lado de Frodo, ya sea antes o después, o `false` sino. Ejemplo:
-
+> Creá una función `estanJuntos` que tome como argumento un array de strings `personajes`, y devuelva `true` si Sam se encuentra al lado de Frodo, ya sea antes o después, o `false` sino. Ejemplo:
+>
 ```javascript
-estanJuntos(['Sam', 'Frodo', 'Legolas']) //true
-estanJuntos(['Aragorn', 'Frodo', 'Frodo']) //true
-estanJuntos(['Sam', 'Orco', 'Frodo']) //true
+ムestanJuntos(['Sam', 'Frodo', 'Legolas']) 
+true
+ムestanJuntos(['Aragorn', 'Frodo', 'Frodo']) 
+true
+ムestanJuntos(['Sam', 'Orco', 'Frodo']) 
+true
 ```

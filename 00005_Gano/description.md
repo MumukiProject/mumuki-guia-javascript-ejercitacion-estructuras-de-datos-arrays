@@ -1,7 +1,10 @@
-Crear una función `gano` que tome como argumento un array `tragamonedas` con 5 símbolos y devuelva `true` si son iguales y `false` sino. Si el array tiene más de 5 símbolos, s´ólo debe comparar los 5 primeros.
-
+> Creá una función `gano` que tome como argumento un array `tragamonedas` con 5 símbolos y devuelva `true` si son iguales y `false` sino. Si el array tiene más de 5 símbolos, s´ólo debe comparar los 5 primeros.
+>
 ```javascript
-gano(['⭐️', '⭐️', '⭐️', '💫', '✨']) // false
-gano(['💫', '💫', '💫', '💫', '💫']) // true
-gano(['💫', '💫', '💫', '💫', '💫', '⭐️']) // true
+ム gano(['⭐️', '⭐️', '⭐️', '💫', '✨']) // 
+false
+ム gano(['💫', '💫', '💫', '💫', '💫']) 
+true
+ム gano(['💫', '💫', '💫', '💫', '💫', '⭐️']) 
+true
 ```
