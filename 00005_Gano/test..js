@@ -1,4 +1,9 @@
-it("Si hacemos invertirCaso('Ada Lovelace')  debería retornar 'aDA lOVELACE'", function() {
-let resultado = invertirCaso('Ada Lovelace') 
-assert.equal(resultado, 'aDA lOVELACE',`invertirCaso('Ada Lovelace')  debería retornar 'aDA lOVELACE' pero fue ${resultado}`);
+it("Si hacemos gano(['⭐️', '⭐️', '⭐️', '💫', '✨'])  debería retornar false", function() {
+let resultado = gano(['⭐️', '⭐️', '⭐️', '💫', '✨']) 
+assert.equal(resultado, false,`gano(['⭐️', '⭐️', '⭐️', '💫', '✨'])  debería retornar false pero fue ${resultado}`);
+})
+
+it("Si hacemos gano([💫', '💫', '💫', '💫', '💫']) debería retornar true", function(){
+  let resultado = gano([💫', '💫', '💫', '💫', '💫'])
+  assert.equal(resultado, false, `gano([💫', '💫', '💫', '💫', '💫']) debería retornar true pero fue ${resultado}`);
 })
