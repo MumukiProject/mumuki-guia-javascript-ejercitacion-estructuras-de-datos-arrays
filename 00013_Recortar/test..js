@@ -1,5 +1,5 @@
 it("Si hacemos recortar(4, ['elefante', 'dinosaurio'. 'chocolate', 'avion', 'america']) debería retornar ['elef', 'dino', 'choco', 'avio', 'amer']", function() {
-let resultado = recortar(4, ['elefante', 'dinosaurio'. 'chocolate', 'avion', 'america'])
+let resultado = recortar(4, ['elefante', 'dinosaurio', 'chocolate', 'avion', 'america'])
 assert.equal(resultado, ['elef', 'dino', 'choco', 'avio', 'amer'],`recortar(4, ['elefante', 'dinosaurio'. 'chocolate', 'avion', 'america']) debería retornar ['elef', 'dino' 'choco', 'avio', 'amer'] pero fue ${resultado}`);
 })
 
