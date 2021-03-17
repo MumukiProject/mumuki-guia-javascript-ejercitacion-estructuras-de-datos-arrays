@@ -3,16 +3,19 @@
 ```javascript
 const puntajesA = [3, 5, 2]
 const puntajesB = [4, 6, 2]
-
+>
 // puntajesA[0] vs. puntajesB[0] -> Gana B
 // puntajesA[1] vs. puntajesB[1] -> Gana B
 // puntajesA[2] vs. puntajesB[2] -> Empate
-
+>
 // Resultado final: Gana Jugadora B
 ```
-
+> 
 ```javascript
-obtenerResultado('Ada', 'Grace', [4, 4, 4], [1, 2, 3]) // Ada
-obtenerResultado('Ada', 'Grace', [3, 5, 5, 7], [4, 1, 2, 9]) // Empate
-obtenerResultado('Ada', 'Grace', [5, 6, 3, 1, 8], [8, 2, 4, 2, 3]) // Grace
+ム obtenerResultado('Ada', 'Grace', [4, 4, 4], [1, 2, 3])
+Ada
+ム obtenerResultado('Ada', 'Grace', [3, 5, 5, 7], [4, 1, 2, 9])
+Empate
+ム obtenerResultado('Ada', 'Grace', [5, 6, 3, 1, 8], [8, 2, 4, 2, 3])
+Grace
 ```
