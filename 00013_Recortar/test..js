@@ -1,6 +1,6 @@
-it("Si hacemos recortar(4, ['elefante', 'dinosaurio'. 'chocolate', 'avion', 'america']) debería retornar ['elef', 'dino', 'choco', 'avio', 'amer']", function() {
+it("Si hacemos recortar(4, ['elefante', 'dinosaurio'. 'chocolate', 'avion', 'america']) debería retornar ['elef', 'dino', 'choc', 'avio', 'amer']", function() {
 let resultado = recortar(4, ['elefante', 'dinosaurio', 'chocolate', 'avion', 'america'])
-assert.equal(resultado, ['elef', 'dino', 'choc', 'avio', 'amer'],`recortar(4, ['elefante', 'dinosaurio'. 'chocolate', 'avion', 'america']) debería retornar ['elef', 'dino' 'choco', 'avio', 'amer'] pero fue ${resultado}`);
+assert.equal(resultado, ['elef', 'dino', 'choc', 'avio', 'amer'],`recortar(4, ['elefante', 'dinosaurio'. 'chocolate', 'avion', 'america']) debería retornar ['elef', 'dino' 'choc', 'avio', 'amer'] pero fue ${resultado}`);
 })
 
 it("Si hacemos recortar(1, ['algoritmo', 'bug', 'compilador']) debería retornar ['a', 'b','c']", function() {
