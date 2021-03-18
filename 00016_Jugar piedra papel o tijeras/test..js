@@ -5,7 +5,7 @@ assert.equal(resultado, 'Grace',`jugarPiedraPapelTijeras('Ada', 'Grace', ['tijer
 
 it("Si hacemos jugarPiedraPapelTijeras('Ada', 'Grace', ['papel'], ['papel']) debería retornar Empate", function() {
 let resultado = jugarPiedraPapelTijeras('Ada', 'Grace', ['papel'], ['papel'])
-assert.equal(resultado, 'Empate',`'Ada', 'Grace', ['papel'], ['papel']) debería retornar 'Empate' pero fue ${resultado}`);
+assert.equal(resultado, 'Empate',`'jugarPiedraPapelTijeras(Ada', 'Grace', ['papel'], ['papel']) debería retornar 'Empate' pero fue ${resultado}`);
 })
 
 it("Si hacemos jugarPiedraPapelTijeras('Ada','Grace',
