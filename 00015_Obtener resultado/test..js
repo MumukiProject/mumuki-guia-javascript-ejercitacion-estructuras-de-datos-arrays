@@ -10,5 +10,5 @@ assert.equal(resultado, 'Empate',`obtenerResultado('Ada', 'Grace', [3, 5, 5, 7],
 
 it("Si hacemos obtenerResultado('Ada', 'Grace', [5, 6, 3, 1, 8], [8, 2, 4, 2, 3]) debería retornar Grace", function() {
 let resultado = obtenerResultado('Ada', 'Grace', [5, 6, 3, 1, 8], [8, 2, 4, 2, 3])
-assert.equal(resultado, 'Grace',`obtenerResultado('Ada', 'Grace', [5, 6, 3, 1, 8], [8, 2, 4, 2, 3]) debería retornar 'GRace' pero fue ${resultado}`);
+assert.equal(resultado, 'Grace',`obtenerResultado('Ada', 'Grace', [5, 6, 3, 1, 8], [8, 2, 4, 2, 3]) debería retornar 'Grace' pero fue ${resultado}`);
 })
