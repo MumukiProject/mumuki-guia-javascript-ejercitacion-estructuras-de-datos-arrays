@@ -1,5 +1,4 @@
-describe("Descripción del grupo", function() {
-  it("Descripción del ejemplo", function() {
-    assert(true)
-  })
+it("Si hacemos germinar('🌷🌱🌻🌱🌸🌱🌷🌱🌻🌱🌸🌱') debería retornar '🌷🌷🌻🌻🌸🌸🌷🌷🌻🌻🌸🌸'", function() {
+let resultado = germinar('🌷🌱🌻🌱🌸🌱🌷🌱🌻🌱🌸🌱')
+assert.equal(resultado, '🌷🌷🌻🌻🌸🌸🌷🌷🌻🌻🌸🌸',`germinar('🌷🌱🌻🌱🌸🌱🌷🌱🌻🌱🌸🌱') debería retornar '🌷🌷🌻🌻🌸🌸🌷🌷🌻🌻🌸🌸' pero fue ${resultado}`);
 })
