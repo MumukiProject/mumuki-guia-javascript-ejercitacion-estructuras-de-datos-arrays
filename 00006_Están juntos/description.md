@@ -3,8 +3,8 @@
 ```javascript
 ムestanJuntos(['Sam', 'Frodo', 'Legolas']) 
 true
-ムestanJuntos(['Aragorn', 'Frodo', 'Frodo']) 
+ムestanJuntos(['Aragorn', 'Frodo', 'Sam']) 
 true
 ムestanJuntos(['Sam', 'Orco', 'Frodo']) 
-true
+false
 ```
