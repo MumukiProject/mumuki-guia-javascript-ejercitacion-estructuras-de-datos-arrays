@@ -1,5 +1,5 @@
-let solucion = [10, 14, 30, 44, 80]
-let solucionDos = [20, 50, 770]
+let solucion = 10, 14, 30, 44, 80
+let solucionDos = 20, 50, 770
 
 it("Si hacemos multiplicar(2, [5, 7, 15, 22, 40]) debería retornar [10, 14, 30, 44, 80]", function() {
 let resultado = multiplicar(2, [5, 7, 15, 22, 40])
