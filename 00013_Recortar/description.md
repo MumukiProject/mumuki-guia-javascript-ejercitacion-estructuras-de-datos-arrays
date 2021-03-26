@@ -2,7 +2,7 @@
 >
 ```javascript
 ム recortar(4, ['elefante', 'dinosaurio', 'chocolate', 'avion', 'america'])
-['elef', 'dino' 'choco', 'avio', 'amer']
+['elef', 'dino' 'choc', 'avio', 'amer']
 ム recortar(1, ['algoritmo', 'bug', 'compilador'])
 ['a', 'b', 'c']
 ```
