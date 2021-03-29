@@ -1,7 +1,7 @@
 function esConejo(caracter)/*<elipsis-for-student@*/{
-  return caracter === 🐰;
+  return caracter === '🐰';
 }/*@elipsis-for-student>*/
 
 function esSenial(caracter)/*<elipsis-for-student@*/{
-  return caracter === 🚫;
+  return caracter === '🚫';
 }/*@elipsis-for-student>*/
