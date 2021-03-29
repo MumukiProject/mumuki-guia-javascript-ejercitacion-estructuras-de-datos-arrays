@@ -1,1 +1,1 @@
-En la `</>Biblioteca` están disponibles las funciones `esConejo` y `esSenial` que reciben como argumento un carácter y retornan true si el mismo es un conejo o una señal respectivamente.
+En la `</>Biblioteca` están disponibles las funciones `esConejo` y `esSenial` que reciben como argumento un carácter y retornan true si el mismo es un conejo o una señal.
