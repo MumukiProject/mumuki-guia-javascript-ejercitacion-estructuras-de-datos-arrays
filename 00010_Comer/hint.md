@@ -1,0 +1,1 @@
+En la `</>Biblioteca` están disponible la función `esConejo` y `esSenial` que reciben como argumento un carácter y retornan true si el mismo es un conejo o una señal respectivamente.
