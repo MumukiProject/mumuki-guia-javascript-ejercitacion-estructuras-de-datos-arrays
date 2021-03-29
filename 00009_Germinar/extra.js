@@ -9,3 +9,7 @@ function esGirasol(caracter){
 function esFlor(caracter){
   return caracter === 🌸;
 }
+
+function esPlantin(caracter){
+  return caracter === 🌱;
+}
