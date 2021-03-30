@@ -1,1 +1,0 @@
-En la `</>Biblioteca` está disponible la función `esPlantin` que recibe como argumento un carácter y retorna true si el mismo es un plantín.
