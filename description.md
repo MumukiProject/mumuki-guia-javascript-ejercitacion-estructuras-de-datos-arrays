@@ -1,2 +1,1 @@
-Ejercitación de arrays.
-
+¡Ejercitemos en el uso de arrays!
