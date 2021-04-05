@@ -1,4 +1,4 @@
-> Definí una función `obtenerResultado` que tome como argumentos dos strings `jugadoraA` y `jugadoraB` con los nombres de cada jugadora respectivamente, y dos arrays de numeros `puntajesA` y `puntajesB` de la misma longitud. La función debe devolver un string con el nombre de la ganadora o `Empate` en caso de que no haya ninguna. Para eso, debe comparar las mismas posiciones de cada array de puntajes, y sumar puntos a la jugadora correspondiente dependiendo de quien tenga el puntaje más alto. Por ejemplo:
+> Definí una función `obtenerResultado` que tome por parámetros dos strings `jugadoraA` y `jugadoraB` con los nombres de cada jugadora respectivamente, y dos arrays de numeros `puntajesA` y `puntajesB` de la misma longitud. La función debe devolver un string con el nombre de la ganadora o `Empate` en caso de que no haya ninguna. Para eso, debe comparar las mismas posiciones de cada array de puntajes, y sumar puntos a la jugadora correspondiente dependiendo de quien tenga el puntaje más alto. Por ejemplo:
 >
 ```javascript
 const puntajesA = [3, 5, 2]

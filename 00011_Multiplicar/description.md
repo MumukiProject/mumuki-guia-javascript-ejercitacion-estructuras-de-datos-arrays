@@ -1,4 +1,4 @@
-> Definí una función `multiplicar` que tome como argumentos un número `multiplicador` y un array de números `numeros`, y que devuelva un array donde cada elemento es el resultado del elemento del primer array (en la misma posición) multiplicado por el número ingresado. Ejemplo:
+> Definí una función `multiplicar` que reciba como argumentos un número `multiplicador` y un array de números `numeros`, y que devuelva un array donde cada elemento es el resultado del elemento del primer array (en la misma posición) multiplicado por el número ingresado. Ejemplo:
 >
 ```javascript
 ム multiplicar(2, [5, 7, 15, 22, 40])
