@@ -4,8 +4,6 @@
 - Para dos usuarias, debe mostrar: `NOMBRE_USUARIA_1 y NOMBRE_USUARIA_2 + están conectadas`
 - Para más de dos usuarias, debe mostrar: `NOMBRE_USUARIA_1, NOMBRE_USUARIA_2 y X persona(s) más están conectadas`
 >
-Ejemplo:
->
 ```javascript
 ム obtenerChatStatus(['Ada'])
 'Ada está conectada'
